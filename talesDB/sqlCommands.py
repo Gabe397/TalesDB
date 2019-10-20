@@ -1,7 +1,7 @@
 import mysql.connector
 import datetime
 
-def insertLog(email,passwd,zipcode):
+def insertLog(email,passwd):
     cnx = mysql.connector.connect(user='root',password='password',host='127.0.0.1',database ='logDB')
 
     dbCursor = cnx.cursor()
@@ -19,8 +19,8 @@ def insertLog(email,passwd,zipcode):
     f = open("logging.txt","a+")
 
     if len(chkresult) == 0 and len(emailRes) == 0:
-        insql = "INSERT INTO logs (email, password,zipcode) VALUES(%s,%s,%s)"
-        val = (email,passwd,zipcode)
+        insql = "INSERT INTO logs (email, password) VALUES(%s,%s)"
+        val = (email,passwd)
 
         dbCursor.execute(insql,val)
 
@@ -90,9 +90,17 @@ def getLog(email,passwd):
 
     cnx.close()
 
-def disconnect(cnx):
-    cnx.close()
-
-def connect():
+def insertUser(email,fname,lname,zipcode):
     cnx = mysql.connector.connect(user='root',password='password',host='127.0.0.1',database ='logDB')
-    return cnx
+    dbCursor = cnx.cursor()
+
+    insql = "INSERT INTO user (email, firstname,lastname,residence) VALUES(%s,%s,%s,%s)"
+    val = (email,fname,lname,zipcode)
+
+    dbCursor.execute(insql,val)
+
+    cnx.commit()
+
+    return "UserCreated"
+
+

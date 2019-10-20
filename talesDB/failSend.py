@@ -15,7 +15,7 @@ channel.queue_declare(queue='loginReply',passive=False,durable=True)
 
 channel.basic_publish(exchange='',
                       routing_key='loginReply',
-                      body='Authentication Failed')
+                      body='Failed')
 
 
 print("Authentication Failed")

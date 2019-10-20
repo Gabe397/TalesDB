@@ -31,46 +31,60 @@ howdy Failed to Register2019-10-15 17:07:09.754601
 howdy Failed to Register2019-10-15 17:07:09.954537
 howdy Failed to Register2019-10-15 17:07:10.008536
 howdy Failed to Register2019-10-15 17:07:10.106914
-howdy Failed to Register2019-10-15 17:07:10.816047
-fake@fake.com Failed to Connect 2019-10-15 17:18:06.268401 
-fakemail@fake.com Failed to Connect 2019-10-15 17:18:06.369034 
-fwwake2mail@fake.com Successfuly Registered2019-10-15 18:50:11.764154
-mrzaddy@me.com Successfuly Registered2019-10-15 19:19:52.375575
-mrzaddy@me.com Successfuly Connected2019-10-15 19:24:37.074794
-mrzaddy@me.com Successfuly Connected2019-10-15 19:26:08.626586
-mrzaddy@me.com Successfuly Connected2019-10-15 19:30:02.072083
-mrzaddy@me.com Failed to Register2019-10-15 19:52:29.191441
-mrzaddy@me.com Failed to Register2019-10-15 19:53:35.127632
-blacksugar@sexy.com Successfuly Registered2019-10-15 19:56:44.262929
-blacksugar@sexy.com Failed to Register2019-10-15 20:00:01.210963
-blacksugar@sexy.com Failed to Register2019-10-15 20:03:21.712747
-blacksugar@sexy.com Failed to Register2019-10-15 20:07:00.365598
-blacksugar@mail.com Successfuly Registered2019-10-15 20:21:33.162444
-blacksugar@mail.com Failed to Register2019-10-15 20:22:20.646804
-blacksugar@mail.com Failed to Register2019-10-15 20:23:01.765316
-blacksugar@mail.com Failed to Register2019-10-15 20:23:25.430879
-mail@mail.com Successfuly Registered2019-10-15 20:24:17.632115
-killmenow@mail.com Successfuly Registered2019-10-15 20:25:25.350302
-killmenow@mail.com Failed to Register2019-10-15 20:28:31.391088
-email@mail.com Successfuly Registered2019-10-15 21:03:19.767367
-email@mail.com Successfuly Connected2019-10-15 21:04:32.064332
-blacksugar@mail.com Failed to Register2019-10-15 21:06:44.336703
-mail@mail.com Failed to Connect 2019-10-15 21:07:20.126084 
-mail@mail.com Failed to Register2019-10-15 21:07:30.585019
-killmenow@mail.com Failed to Register2019-10-15 21:08:50.541957
-hello@mail.com Successfuly Registered2019-10-15 21:09:39.581323
-edwin@mail.com Successfuly Registered2019-10-15 21:29:40.248957
-edwin@mail.com Failed to Register2019-10-15 21:32:13.429810
-frank@mail.com Successfuly Registered2019-10-15 21:34:23.228099
-ed@mail.com Successfuly Registered2019-10-15 21:35:38.657545
-killmenow@mail.com Successfuly Connected2019-10-15 21:40:06.152865
-killmenow@mail.com Successfuly Connected2019-10-15 21:41:15.105558
-blacksugar@mail.com Successfuly Connected2019-10-15 21:42:00.159178
-edwin@mail.com Failed to Connect 2019-10-15 21:42:21.716206 
-sample@mail.com Successfuly Registered2019-10-15 21:43:23.006656
-artur@mail.com Successfuly Registered2019-10-15 21:53:21.601932
-gabe@smd.com Successfuly Registered2019-10-15 21:56:42.548387
-frank@smd.com Successfuly Registered2019-10-15 21:59:05.429876
-edwin@smd.com Successfuly Registered2019-10-15 22:00:35.154484
-mail@mail.com Failed to Register2019-10-15 22:01:50.998770
-artur@mail.com Failed to Register2019-10-15 22:02:33.267846
+teamliquid@champs.com Successfuly Registered2019-10-17 18:37:04.578716
+fakeemail@fakeemail.com Successfuly Registered2019-10-17 18:41:47.813553
+razer@bestcomputer.com Successfuly Registered2019-10-17 18:43:37.083960
+edwin_meng@gmail.com Successfuly Registered2019-10-19 18:47:21.466604
+fartallday@today.com Successfuly Registered2019-10-19 18:50:53.273589
+artur_me@mail.com Successfuly Registered2019-10-19 18:51:05.294269
+hopefullythisworks@please.us Successfuly Registered2019-10-19 18:53:30.735031
+pleasework@fuck.me Successfuly Registered2019-10-19 18:55:05.335086
+fake@fake.com Successfuly Registered2019-10-19 18:56:36.944666
+fakemail@fake.com Successfuly Registered2019-10-19 18:57:10.935866
+register@home.com Successfuly Registered2019-10-19 19:03:09.228389
+pleasepass@mail.com Successfuly Registered2019-10-19 19:04:15.008313
+fake@fake.com Failed to Register2019-10-19 19:04:39.654827
+mailer@mchugh.com Successfuly Registered2019-10-19 19:05:33.376553
+artur@mail.com Successfuly Registered2019-10-19 19:08:26.476558
+fake@fake.com Failed to Register2019-10-19 19:09:12.922284
+fake@fake.com Failed to Register2019-10-19 19:17:25.734748
+fake@fake.com Failed to Register2019-10-19 19:18:10.880270
+123@mail.com Successfuly Registered2019-10-19 19:18:38.235131
+fake@fake.com Successfuly Registered2019-10-19 19:19:44.446978
+fakemail@fake.com Successfuly Registered2019-10-19 19:20:53.927978
+pleasepass@mail.com Successfuly Registered2019-10-19 19:21:55.465075
+mount@email.com Successfuly Registered2019-10-19 19:23:59.303161
+gabe@monster Successfuly Registered2019-10-19 19:31:10.398212
+gabe@monster Failed to Register2019-10-19 19:31:21.124695
+gabe@monster Failed to Register2019-10-19 19:31:35.121020
+gabe@monstejr Successfuly Registered2019-10-19 19:32:16.055729
+gabe@monstejr Failed to Register2019-10-19 19:37:07.510024
+gabe@monstejr Failed to Register2019-10-19 19:37:31.617363
+gabe@monstejr Failed to Register2019-10-19 19:40:03.615971
+gabe@monstejr Failed to Register2019-10-19 19:40:30.636788
+gabe@monstejr Failed to Register2019-10-19 19:40:40.563433
+gabe@monstejr Failed to Register2019-10-19 19:40:56.926739
+rice@sugar.com Successfuly Registered2019-10-19 19:43:48.001259
+rice@sugar.com Failed to Register2019-10-19 19:44:20.647603
+rice@sugar.com Failed to Register2019-10-19 19:44:49.365684
+debug@mail.com Successfuly Registered2019-10-19 21:09:16.430797
+update@trello.now Successfuly Registered2019-10-19 21:14:12.089182
+leaving@10.com Successfuly Registered2019-10-19 21:15:03.519436
+10@outofhere.com Successfuly Registered2019-10-19 21:16:40.575404
+tomorrows@work.com Successfuly Registered2019-10-19 21:19:01.860706
+rise@shine.com Successfuly Registered2019-10-19 21:22:29.664314
+ Successfuly Registered2019-10-19 21:27:13.821720
+leaving@now.com Successfuly Registered2019-10-19 21:31:17.049639
+pussy@cat.com Successfuly Registered2019-10-19 21:33:22.811584
+almost@home.com Successfuly Registered2019-10-19 21:40:53.499060
+takeme@home.com Successfuly Registered2019-10-19 21:41:59.350956
+mail@mail.com Successfuly Registered2019-10-19 21:45:32.274774
+sunday@work.com Successfuly Registered2019-10-20 14:20:32.878012
+gabe@connect.com Successfuly Registered2019-10-20 14:22:21.215979
+sessions@test.com Successfuly Registered2019-10-20 14:35:39.361257
+sessions@test.com Failed to Register2019-10-20 14:38:21.448032
+readnow@mail.com Successfuly Registered2019-10-20 14:38:51.524019
+djs@code.com Successfuly Registered2019-10-20 14:39:30.953091
+mchugh@mail.com Successfuly Registered2019-10-20 14:40:16.392471
+gradute@last.semester Successfuly Registered2019-10-20 14:45:23.333361
+gabe@quit.com Successfuly Registered2019-10-20 14:45:53.910093

@@ -1,5 +1,6 @@
 import sqlCommands
 import pika
+import os
 
 credentials = pika.PlainCredentials('gabe','gabe')
 connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.1.160',5672,'/',credentials))
@@ -16,11 +17,11 @@ channel.start_consuming()
 
 if body != (None, None, None):
     user = body[-1].split(':')
-    results = sqlCommands.insertLog(user[0],user[1],user[2])
+    results = sqlCommands.insertLog(user[0],user[1])
     if results == True:
-        import registerSuccess
+        os.system('python registerSuccess.py')
     else:
-        import registerFailed
+        os.system('python registerFailed.py')
 
 
 connection.close()

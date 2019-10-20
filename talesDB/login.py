@@ -1,5 +1,6 @@
 import sqlCommands
 import pika
+import os
 
 credentials = pika.PlainCredentials('gabe','gabe')
 connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.1.160',5672,'/',credentials))
@@ -18,9 +19,10 @@ if body != (None, None, None):
     user = body[-1].split(':')
     results = sqlCommands.auth(user[0],user[1])
     if results == True:
-        import send
+        os.system('python send.py')
     else:
-        import failSend
+        os.system('python failSend.py')
+
 
 
 connection.close()

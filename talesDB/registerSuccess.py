@@ -15,10 +15,10 @@ channel.queue_declare(queue='registerReply',passive=False,durable=True)
 
 channel.basic_publish(exchange='',
                       routing_key='registerReply',
-                      body='Registered')
+                      body='Success')
 
 
-print("Successfully Registered")
+print("Succesfully Registered")
 
 connection.close()
 

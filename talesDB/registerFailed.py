@@ -15,7 +15,7 @@ channel.queue_declare(queue='registerReply',passive=False,durable=True)
 
 channel.basic_publish(exchange='',
                       routing_key='registerReply',
-                      body='Account Exists')
+                      body='Failed')
 
 
 print("Failed to Register")
