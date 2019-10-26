@@ -55,21 +55,20 @@ def auth(email,passwd):
 
     if len(myresult) == 0:
         f.write(email + " Failed to Connect " + str(datetime.datetime.now()) + " \r\n")
-        f.close()
+
         f.close()
 
-        disconnect(cnx)
+        cnx.close()
         
-        return False;
+        return False
 
     
-    elif len(myresult) == 1:
+    else:
         print("You're connected")
         f.write(email + " Successfuly Connected" + str(datetime.datetime.now()) + "\r\n")
         f.close()
- 
-        disconnect(cnx)
-        return True;
+        cnx.close()
+        return True
     
 
 def getLog(email,passwd):
@@ -97,10 +96,35 @@ def insertUser(email,fname,lname,zipcode):
     insql = "INSERT INTO user (email, firstname,lastname,residence) VALUES(%s,%s,%s,%s)"
     val = (email,fname,lname,zipcode)
 
+    f = open("userLogs.txt","a+")
+
+    f.write(email + " User Created " + str(datetime.datetime.now()) + " \r\n")
+    
+    f.close()
     dbCursor.execute(insql,val)
 
     cnx.commit()
 
     return "UserCreated"
 
+def getUser(email):
+    cnx = mysql.connector.connect(user='root',password='password',host='127.0.0.1',database ='logDB')
 
+    sql = """SELECT * FROM user WHERE email = '%s'  """ %(email)
+    
+    dbCursor = cnx.cursor()
+
+    dbCursor.execute(sql)
+
+    myresult = dbCursor.fetchall()
+
+    returnArray = []
+
+    for x in range(len(myresult[0])):
+        returnArray.append(myresult[0][x].encode('utf-8'))
+    
+    del returnArray[0]
+    return returnArray
+
+
+    cnx.close()
