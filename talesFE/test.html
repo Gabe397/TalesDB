@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan My Night</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="application/json" src="night.json"></script>
+
+    <script>
+//     $.getJSON("night.json", function(json) {
+//     console.log(json); // this will show the info it in firebug console
+// });
+    // function arrayFunction(){
+    //   //var nightplans = <?php echo $result; ?> ;
+    //   var indexBar = 0;
+    //   var indexDrink = 5;
+    //   for (indexBar; indexBar < 5; indexBar++) {
+    //     document.getElementById('planmynight').innerHTML += "<img src='" +nightplans[indexBar].image_url + "' width=25% height=25% <br />";
+    //     document.getElementById('planmynight').innerHTML += nightplans[indexBar].rating + "<br />";
+    //     document.getElementById('planmynight').innerHTML += nightplans[indexBar].review_count + "<br />";
+    //     document.getElementById('planmynight').innerHTML += nightplans[indexBar].name + "<br />";
+    //     document.getElementById('planmynight').innerHTML += nightplans[indexBar].url + "<br />";
+    //     document.getElementById('planmynight').innerHTML += nightplans[indexBar].price + "<br />";
+    //     document.getElementById('planmynight').innerHTML += nightplans[indexBar].display_phone + "<br />";
+    //     document.getElementById('planmynight').innerHTML += nightplans[indexBar].location.display_address + "<br />";
+    //   }
+    //    document.getElementById('planmynight').innerHTML += nightplans[5].drink0.values().strDrink[0] + "<br />";
+    //    document.getElementById('planmynight').innerHTML += nightplans[6].drink1.values("strDrink") + "<br />";
+    //    // document.getElementById('planmynight').innerHTML += nightplans[7].drink2[0].strDrink + "<br />";
+    //    // document.getElementById('planmynight').innerHTML += nightplans[8].drink3[0].strDrink + "<br />";
+    //    // document.getElementById('planmynight').innerHTML += nightplans[9].drink4[0].strDrink  + "<br />";
+    // }a
+    </script>
+</head>
+
+<body onload="arrayFunction()">
+    <div class="login-dark">
+        <form action="sendReg.php" method="post">
+            <h2 class="sr-only">Night Planned</h2>
+            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+            <div class="form-group"><span id="planmynight"></span>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
