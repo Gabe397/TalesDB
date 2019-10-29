@@ -182,3 +182,20 @@ isthequiz@done.yet Successfuly Registered2019-10-22 20:40:36.037014
 mid@term.com Successfuly Registered2019-10-22 20:42:35.882953
 stummy@fine.com Successfuly Connected2019-10-22 20:47:35.384721
 stummy@fine.com Successfuly Connected2019-10-22 20:54:07.456962
+stummy@fine.com Successfuly Connected2019-10-26 18:51:27.457386
+stummy@fine.com Successfuly Connected2019-10-26 19:23:11.345437
+stummy@fine.com Successfuly Connected2019-10-26 19:23:11.364144
+stummy@fine.com Successfuly Connected2019-10-26 19:23:11.377443
+stummy@fine.com Successfuly Connected2019-10-26 19:23:39.135534
+stummy@fine.com Successfuly Connected2019-10-26 19:24:49.516615
+stummy@fine.com Successfuly Connected2019-10-26 19:26:48.649879
+ Failed to Connect 2019-10-26 19:52:55.126110 
+stummy@fine.com Successfuly Connected2019-10-26 19:54:16.031663
+stummy@fine.com Successfuly Connected2019-10-27 13:04:20.499232
+stummy@fine.com Successfuly Connected2019-10-27 13:13:38.907413
+pasta@lunch.com Successfuly Registered2019-10-27 13:17:32.062105
+stummy@fine.com Successfuly Connected2019-10-27 13:19:06.848920
+stummy@fine.com Failed to Register2019-10-27 15:34:23.729114
+stummy@fine.com Successfuly Connected2019-10-27 15:34:42.594682
+stummy@fine.com Successfuly Connected2019-10-27 17:36:18.919129
+stummy@fine.com Successfuly Connected2019-10-27 21:45:17.094933

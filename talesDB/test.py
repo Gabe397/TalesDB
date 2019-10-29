@@ -1,9 +1,6 @@
 import sqlCommands
 
 
-sqlCommands.getUser("almost@home.com")
-
-
-
+sqlCommands.getFavorite('stummy@fine.com')
 
 
