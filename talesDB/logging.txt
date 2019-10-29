@@ -199,3 +199,11 @@ stummy@fine.com Failed to Register2019-10-27 15:34:23.729114
 stummy@fine.com Successfuly Connected2019-10-27 15:34:42.594682
 stummy@fine.com Successfuly Connected2019-10-27 17:36:18.919129
 stummy@fine.com Successfuly Connected2019-10-27 21:45:17.094933
+stummy@fine.com Successfuly Connected2019-10-29 10:43:51.080662
+lawyerz@gmail.com Successfuly Registered2019-10-29 10:45:00.241631
+stummy@fine.com Successfuly Connected2019-10-29 10:55:21.607742
+stummy@fine.com Successfuly Connected2019-10-29 11:10:08.634271
+stummy@fine.com Successfuly Connected2019-10-29 14:22:30.494641
+stummy@fine.com Successfuly Connected2019-10-29 16:32:09.125983
+stummy@fine.com Successfuly Connected2019-10-29 16:57:32.778575
+stummy@fine.com Successfuly Connected2019-10-29 16:57:39.341286

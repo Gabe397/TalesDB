@@ -12,13 +12,12 @@ channel.queue_declare(queue='profile',passive=False,durable=True)
 
 
 def callback(ch, method, properties, body):
-    user = body.split(':')
-    results = sqlCommands.getFavorite(user[0])
+    results = sqlCommands.addLog(body)
 
-
+    emptyStr = ''
     channel.basic_publish(exchange='',
                         routing_key='profileReply',
-                        body=results)
+                        body=json.dumps(results))
 
 
     print('Something Happened')

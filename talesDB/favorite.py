@@ -13,7 +13,7 @@ channel.queue_declare(queue='favorite',passive=False,durable=True)
 
 def callback(ch, method, properties, body):
     user = body.split(':')
-    results = sqlCommands.addFavorite(user[0],user[1],user[2],user[3],int(user[4]))
+    results = sqlCommands.addFavorite(user[0],user[1],user[2],user[3],user[4],int(user[5]))
 
     if results == True:
        channel.basic_publish(exchange='',

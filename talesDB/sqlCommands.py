@@ -146,7 +146,6 @@ def addFriend(cemail,femail):
 
     myresult2 = dbCursor.fetchall()
 
-
     if len(myresult) == 0 and len(myresult2) == 1:
         insql = "INSERT INTO friends (userEmail,friendEmail) VALUES(%s,%s)"
         val = (cemail,femail)
@@ -232,3 +231,16 @@ def addFavorite(email,lname,drink,drinkID,pic,rating):
         return True
     else:
         print('Nothing Added')
+
+def addLog(log,created):
+    cnx = mysql.connector.connect(user='root',password='password',host='127.0.0.1',database ='logDB')
+
+    dbCursor = cnx.cursor()
+
+    insql = "INSERT INTO clogs(log,created) VALUES(%s,%s)"
+    val = (log,created)
+
+    dbCursor.execute(insql,val)
+
+    cnx.commit()
+
