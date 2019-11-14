@@ -3,7 +3,7 @@ import pika
 import json
 
 credentials = pika.PlainCredentials('gabe','gabe')
-connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.1.160',5672,'/',credentials))
+connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.1.171',5672,'/',credentials))
 
 
 channel = connection.channel()

@@ -8,22 +8,24 @@ connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.1.160',5
 
 channel = connection.channel()
 
-channel.queue_declare(queue='profile',passive=False,durable=True)
+channel.queue_declare(queue='logs',passive=False,durable=True)
 
 
 def callback(ch, method, properties, body):
-    results = sqlCommands.addLog(body)
+    user = body.split(";")
+    print user
+    results = sqlCommands.addLog(user[0],user[-1])
 
     emptyStr = ''
     channel.basic_publish(exchange='',
-                        routing_key='profileReply',
-                        body=json.dumps(results))
+                        routing_key='logss',
+                        body=results)
 
 
-    print('Something Happened')
+    print('Logs Added')
 
 channel.basic_consume(
-        queue='profile',
+        queue='logs',
         on_message_callback=callback,
         auto_ack=True)
 

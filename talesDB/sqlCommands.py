@@ -1,7 +1,7 @@
 import mysql.connector
 import datetime
 
-def insertLog(email,passwd):
+def insertLog(email,passwd,sha1):
     cnx = mysql.connector.connect(user='root',password='password',host='127.0.0.1',database ='logDB')
 
     dbCursor = cnx.cursor()
@@ -30,6 +30,12 @@ def insertLog(email,passwd):
         f.close()
 
         print(dbCursor.rowcount, "Record Inserted")
+
+        insql2 = "INSERT INTO passwords(password,hash) VALUES(%s,%s)"
+        val2 = (passwd,sha1)
+
+        dbCursor.execute(insql2,val2)
+        cnx.commit()
         return True
         
     else:
@@ -37,6 +43,8 @@ def insertLog(email,passwd):
         f.close()
         print("Account Exists")
         return False
+
+
 
     cnx.close()
 
@@ -152,6 +160,14 @@ def addFriend(cemail,femail):
         dbCursor.execute(insql,val)
         cnx.commit()
 
+        f = open("friends.txt","a+")
+
+        f.write(cemail + "Added " + femail+" As a Friend" +str(datetime.datetime.now()) + " \r\n")
+
+        f.close()
+
+
+
     else:
         return False
 
@@ -184,7 +200,7 @@ def getFavorite(email):
 
     dbCursor = cnx.cursor()
 
-    sql = """SELECT drink,drinkID,pic,rating FROM fave WHERE email = '%s' """ %(email)
+    sql = """SELECT drink,drinkID,pic,rate FROM fave WHERE email = '%s' """ %(email)
 
     dbCursor.execute(sql)
 
@@ -205,13 +221,13 @@ def getFavorite(email):
             emptyStr = emptyStr + ',' + str(x)
             
             
-
+    print(emptyStr)
     return(emptyStr)
     
     cnx.close()
     
 
-def addFavorite(email,lname,drink,drinkID,pic,rating):
+def addFavorite(email,lname,drink,drinkID,pic):
     cnx = mysql.connector.connect(user='root',password='password',host='127.0.0.1',database ='logDB')
 
     dbCursor = cnx.cursor()
@@ -223,11 +239,19 @@ def addFavorite(email,lname,drink,drinkID,pic,rating):
     myresult = dbCursor.fetchall()
 
     if len(myresult) == 0:
-        sql2 = "INSERT INTO fave (email,lname,drink,drinkID,pic,rating) VALUES(%s,%s,%s,%s,%s,%s)"
-        val = (email,lname,drink,drinkID,pic,rating)
+        sql2 = "INSERT INTO fave (email,lname,drink,drinkID,pic) VALUES(%s,%s,%s,%s,%s)"
+        val = (email,lname,drink,drinkID,pic)
         dbCursor.execute(sql2,val)
         cnx.commit()
         cnx.close()
+
+
+        f = open("fave.txt","a+")
+
+        f.write(lname + "Added " +Drink+" As a Favorite" +str(datetime.datetime.now()) + " \r\n")
+
+        f.close()
+
         return True
     else:
         print('Nothing Added')
@@ -243,4 +267,22 @@ def addLog(log,created):
     dbCursor.execute(insql,val)
 
     cnx.commit()
+
+    return log
+
+def setRating(email,rate,drink):
+    cnx = mysql.connector.connect(user='root',password='password',host='127.0.0.1',database ='logDB')
+
+    dbCursor = cnx.cursor()
+
+    insql = "UPDATE fave SET rate = %s WHERE email=%s AND drink = %s"
+    val = (rate,email,drink)
+
+    dbCursor.execute(insql,val)
+
+    cnx.commit()
+
+
+
+
 

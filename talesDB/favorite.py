@@ -12,8 +12,11 @@ channel.queue_declare(queue='favorite',passive=False,durable=True)
 
 
 def callback(ch, method, properties, body):
-    user = body.split(':')
-    results = sqlCommands.addFavorite(user[0],user[1],user[2],user[3],user[4],int(user[5]))
+    user = body.split('#')
+    print(body)
+    print(user)
+
+    results = sqlCommands.addFavorite(user[0],user[1],user[2],user[3],user[4])
 
     if results == True:
        channel.basic_publish(exchange='',
@@ -25,6 +28,8 @@ def callback(ch, method, properties, body):
                           body='Drink already in favorites!')
 
     print('Something Happened')
+    print(body)
+    print(user)
 
 channel.basic_consume(
         queue='favorite',

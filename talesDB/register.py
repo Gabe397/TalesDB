@@ -17,7 +17,7 @@ channel.start_consuming()
 
 if body != (None, None, None):
     user = body[-1].split(':')
-    results = sqlCommands.insertLog(user[0],user[1])
+    results = sqlCommands.insertLog(user[0],user[1],user[2])
     if results == True:
         os.system('python registerSuccess.py')
     else:

@@ -28,7 +28,7 @@ def callback(ch, method, properties, body):
                           routing_key='friendsReply',
                           body=json.dumps(emptyStr))
 
-    print('Something Happened')
+    print('Friend Added')
 
 channel.basic_consume(
         queue='newFriends',

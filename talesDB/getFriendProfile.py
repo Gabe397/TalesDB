@@ -14,8 +14,11 @@ channel.queue_declare(queue='friendsP',passive=False,durable=True)
 def callback(ch, method, properties, body):
     bar = sqlCommands.getUser(body)
     emptyStr = ''
+    var = sqlCommands.getFavorite(body)
     for word in bar:
         emptyStr =  emptyStr +',' + word
+
+    emptyStr = emptyStr + var
 
 
     channel.basic_publish(exchange='',

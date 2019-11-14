@@ -208,3 +208,23 @@ stummy@fine.com Successfuly Connected2019-10-29 16:32:09.125983
 stummy@fine.com Successfuly Connected2019-10-29 16:57:32.778575
 stummy@fine.com Successfuly Connected2019-10-29 16:57:39.341286
 stummy@fine.com Successfuly Connected2019-10-29 17:09:39.875620
+stummy@fine.com Successfuly Connected2019-10-29 17:56:11.848026
+franklin@njit.com Successfuly Registered2019-10-29 21:19:32.896587
+franklin@njit.com Failed to Connect 2019-10-29 21:20:42.776168 
+franklin@njit.com Successfuly Connected2019-10-29 21:21:08.859672
+stummy@fine.com Successfuly Connected2019-10-29 21:29:25.978675
+gabe@testing.com Successfuly Connected2019-10-29 21:30:24.859282
+gabe@testing.com Successfuly Connected2019-10-29 21:33:16.440724
+gabe@testing.com Successfuly Connected2019-11-03 15:48:18.895884
+fjp23@njit.edu Successfuly Registered2019-11-03 16:42:28.401337
+stummy@fine.com Successfuly Connected2019-11-04 20:07:21.209007
+fjp23@njit.edu Successfuly Connected2019-11-04 20:09:07.640692
+fjp23@njit.edu Successfuly Connected2019-11-04 21:00:42.306720
+stummy@fine.com Successfuly Connected2019-11-05 15:58:31.734410
+fjp23@njit.edu Successfuly Connected2019-11-05 17:32:01.681002
+stummy@fine.com Successfuly Connected2019-11-05 17:37:15.682814
+stummy@fine.com Successfuly Connected2019-11-05 17:56:36.529737
+fjp23@njit.edu Successfuly Connected2019-11-05 19:31:18.196625
+fuckme@mail.com Failed to Connect 2019-11-12 17:43:37.783729 
+stummy@fine.com Successfuly Connected2019-11-12 17:43:51.719551
+webex@fuckyou.com Successfuly Registered2019-11-12 17:59:34.918716

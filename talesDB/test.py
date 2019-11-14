@@ -1,6 +1,3 @@
 import sqlCommands
 
-
-sqlCommands.addFriend("Lolz@lol.com","yellow","Tequila","10314","Somepic","4")
-
-
+sqlCommands.addFavorite("franklin@njit.com","Pavon", "Margaritta","17255","https://www.thecocktaildb.com/images/media/drink/xvwusr1472669302.jpg")
